@@ -59,7 +59,12 @@ def double_eights(n):
     "*** YOUR CODE HERE ***"
     cnt = 0
     while n > 10:
-        if n % 10 == 8: cnt += 1
+        if n % 10 == 8:
+            cnt += 1
+        else:
+            cnt = 0
+        if cnt == 2:
+            return True
         n //= 10
     if n == 8: cnt += 1
     if cnt == 2:
