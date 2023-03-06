@@ -1,8 +1,6 @@
-# .github
+![UCB-CA61A](UCB-CS61A.png)
 
 [English](README.md) | 中文
-
-Money is cheap, show me the code.
 
 ## 许可证
 
